@@ -8,3 +8,9 @@
 .head .logo img { border: none; }
 
 .toc, .toc li { list-style: none; }
+
+pre > code.idl::before, pre.idl::before { content: 'IDL'; }
+pre > code.css::before, pre.highlight.lang-css::before { content: 'CSS'; }
+
+.note::before { content: 'Nota'; }
+.warning::before
